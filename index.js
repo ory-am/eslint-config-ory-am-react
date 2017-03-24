@@ -1,5 +1,9 @@
 module.exports = {
-  'extends': 'plugin:react/recommended',
+  'extends': [
+    'plugin:react/recommended',
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
   'rules': {
     'react/forbid-prop-types:': 'off',
     'react/no-comment-textnodes': 'error',
@@ -40,9 +44,11 @@ module.exports = {
     'flowtype/require-parameter-type': 'error',
     'flowtype/space-after-type-colon': ['error', 'always'],
     'flowtype/space-before-type-colon': ['error', 'never'],
-    'flowtype/type-id-match': ['error', '^([A-Z][a-z0-9]+)+$']
+    'flowtype/type-id-match': ['error', '^([A-Z][a-z0-9]+)+$'],
+    'no-duplicate-imports': ['off']
   },
   'plugins': [
-    'react'
+    'react',
+    'import'
   ]
 }
