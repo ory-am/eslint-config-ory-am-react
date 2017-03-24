@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ory-am-react",
-  "version": "4.0.1",
+  "version": "4.0.3",
   "description": "The ESLint configuration used by Ory (React specific)",
   "main": "index.js",
   "repository": {
