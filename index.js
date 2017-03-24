@@ -36,6 +36,11 @@ module.exports = {
     'react/jsx-pascal-case': 'error',
     'react/jsx-sort-props': 'off',
     'react/jsx-space-before-closing': 'error',
+    'flowtype/define-flow-type': 'error',
+    'flowtype/require-parameter-type': 'error',
+    'flowtype/space-after-type-colon': ['error', 'always'],
+    'flowtype/space-before-type-colon': ['error', 'never'],
+    'flowtype/type-id-match': ['error', '^([A-Z][a-z0-9]+)+$']
   },
   'plugins': [
     'react'

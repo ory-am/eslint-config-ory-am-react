@@ -9,6 +9,7 @@
   },
   "license": "Apache-2.0",
   "peerDependencies": {
-    "eslint-plugin-react": ">= 5.2.0"
+    "eslint-plugin-react": ">= 5.2.0 < 7",
+    "eslint-plugin-flowtype": "^2.30.4"
   }
 }
